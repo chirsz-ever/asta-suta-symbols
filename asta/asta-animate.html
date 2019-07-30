@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+body {
+  background-color: #000;
+  margin:0;
+}
+
+#asta-symbol {
+  position:absolute;
+  left:25vw;
+  top:calc(50vh - 25vw);
+  width:50vw;
+  height:50vw;
+}
+
+#asta-symbol .asta-lines {
+  fill:none;
+  stroke:#fff;
+  stroke-width:3;
+  stroke-linecap:round;
+  stroke-linejoin:round;
+  stroke-miterlimit:10;
+  stroke-dasharray:1563,1563;
+  stroke-dashoffset:1563;
+  animation: asta-line 10s infinite;
+}
+
+@keyframes asta-line {
+  0% {
+    stroke-dashoffset:1563;
+  }
+  40% {
+    stroke-dashoffset:0;
+  }
+  60% {
+  stroke-opacity:1;
+  }
+  100% {
+  stroke-dashoffset:0;
+    stroke-opacity:0;
+  }
+}
+</style>
+</head>
+<body>
+
+<svg id="asta-symbol" width="" height="" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 300">
+  <path class="asta-lines"
+        d="M 22.0 278.0
+           a 362.0386719675124 362.0386719675124 0 0 1 93.70250336881631 -162.2974966311837
+           a 48.503984891265524 78.47944755406762 45 0 1 68.5949932623674 68.5949932623674
+           a 24.251992445632762 48.503984891265524 45 0 1 -34.2974966311837 -34.2974966311837
+           l 128 -128 h -256 l 256 256 z" />
+</svg>
+
+
+
+
+</body>
+</html>

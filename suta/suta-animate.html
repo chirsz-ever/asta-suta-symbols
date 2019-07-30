@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+body {
+  margin:0;
+}
+
+#suta-symbol {
+  position:absolute;
+  left:25vw;
+  top:calc(50vh - 25vw);
+  width:50vw;
+  height:50vw;
+}
+
+#suta-symbol .suta-lines {
+  fill:none;
+  stroke:#000;
+  stroke-width:3;
+  stroke-linecap:round;
+  stroke-linejoin:round;
+  stroke-miterlimit:10;
+  stroke-dasharray:1604,1604;
+  stroke-dashoffset:1604;
+  animation: suta-line 10s infinite;
+}
+
+@keyframes suta-line {
+  0% {
+    stroke-dashoffset:1604;
+  }
+  40% {
+    stroke-dashoffset:0;
+  }
+  60% {
+  stroke-opacity:1;
+  }
+  100% {
+  stroke-dashoffset:0;
+    stroke-opacity:0;
+  }
+}
+</style>
+</head>
+<body>
+
+<svg id="suta-symbol" width="" height="" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 300">
+  <path class="suta-lines"
+        d="M 22.0 136.48668044798922
+           h 256
+           c -30.0 43.41640786499873 -54.0 47.79167155156212 -64.0 47.79167155156212
+           s -34.0 -4.375263686563386 -64.0 -47.79167155156212
+           l -79.10835055998655 -114.48668044798923
+           v 256
+           l 143.10835055998655 -256
+           v 256 z" />
+</svg>
+
+
+
+
+</body>
+</html>

@@ -1,0 +1,15 @@
+<?xml version="1.0" standalone="no"?>
+<!-- generated with suta_generate.py 30.0 10.0 -->
+
+<svg width="300" height="300" xmlns="http://www.w3.org/2000/svg">
+  <path d="M 22.0 136.48668044798922
+           h 256
+           c -30.0 43.41640786499873 -54.0 47.79167155156212 -64.0 47.79167155156212
+           s -34.0 -4.375263686563386 -64.0 -47.79167155156212
+           l -79.10835055998655 -114.48668044798923
+           v 256
+           l 143.10835055998655 -256
+           v 256 z"
+        stroke-width="3" stroke="#000" fill="none"
+        stroke-linejoin="round"/>
+</svg> 
