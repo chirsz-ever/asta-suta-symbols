@@ -1,4 +1,4 @@
-本仓库提供了 Asta 与 Suta 的专用标志，使用SVG矢量图描述。
+本仓库提供了 Suta 与 Asta 的专用标志，使用SVG矢量图描述。
 
 ## Suta
 
