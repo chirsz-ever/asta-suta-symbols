@@ -4,10 +4,18 @@
 
 象征一致，光明。
 
-![](suta/suta.svg)
+![](suta/suta-base.svg)
+
+动画版：
+
+![](suta/suta-animate.svg)
 
 ## Asta
 
 象征无序，阴影。
 
-![](asta/asta.svg)
+![](asta/asta-base.svg)
+
+动画版：
+
+![](asta/asta-animate.svg)
