@@ -1,0 +1,21 @@
+#suta-symbol .suta-path {
+  stroke-dasharray:1604,1604;
+  stroke-dashoffset:1604;
+  animation: suta-line 10s infinite;
+}
+
+@keyframes suta-line {
+  0% {
+    stroke-dashoffset:1604;
+  }
+  40% {
+    stroke-dashoffset:0;
+  }
+  60% {
+    stroke-opacity:1;
+  }
+  100% {
+    stroke-dashoffset:0;
+    stroke-opacity:0;
+  }
+}
