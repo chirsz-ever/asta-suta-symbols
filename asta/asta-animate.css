@@ -1,0 +1,26 @@
+#asta-symbol .asta-path {
+  stroke: #fff;
+  stroke-dasharray:1572,1572;
+  stroke-dashoffset:1572;
+  animation: asta-line 10s infinite;
+}
+
+#asta-symbol {
+  background-color: #000;
+}
+
+@keyframes asta-line {
+  0% {
+    stroke-dashoffset:1572;
+  }
+  40% {
+    stroke-dashoffset:0;
+  }
+  60% {
+    stroke-opacity:1;
+  }
+  100% {
+    stroke-dashoffset:0;
+    stroke-opacity:0;
+  }
+}
