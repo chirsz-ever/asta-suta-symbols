@@ -7,7 +7,7 @@ import jinja2
 suta_svg_template = jinja2.Template(
 '''
 <?xml version="1.0" standalone="no"?>
-<!-- generated with `{{ __file__ }} {{ ' '.join(sys.argv[1:]) }}` -->
+<!-- generated with `{{ ' '.join(sys.argv) }}` -->
 
 <svg id="suta-symbol" width="{{ w }}" height="{{ w }}" xmlns="http://www.w3.org/2000/svg">
   <style>

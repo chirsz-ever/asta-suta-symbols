@@ -1,13 +1,13 @@
 #!/usr/bin/env python3
 
-from math import sin,cos,sqrt,pi
+from math import sin,cos,sqrt,radians
 import sys
 import jinja2 
 
 asta_svg_template = jinja2.Template(
 '''
 <?xml version="1.0" standalone="no"?>
-<!-- generated with `{{ __file__ }} {{ ' '.join(sys.argv[1:]) }}` -->
+<!-- generated with `{{ ' '.join(sys.argv) }}` -->
 
 <svg id="asta-symbol" width="{{ w }}" height="{{ w }}" xmlns="http://www.w3.org/2000/svg">
   <style>
@@ -24,7 +24,7 @@ asta_svg_template = jinja2.Template(
 
 argv = sys.argv
 angle, ratio1, ratio2 = float(argv[1]), float(argv[2]), float(argv[3])
-θ = angle*pi/180
+θ = radians(angle)
 
 w = 300
 l = 256
